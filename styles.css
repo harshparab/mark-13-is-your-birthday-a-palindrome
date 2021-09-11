@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: #1F2937;
+    --secondary-color: #E5E7EB;
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    display: block;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+
+
+#bday-input {
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: large;
+}
+
+#show-button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 1rem;
+    background-color: #F59E0B;
+    color: var(--secondary-color);
+}
+
+#output {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: large;
+    font-weight: bold;
+    color: blue ;
+}
+
+.footer {
+    padding: 4rem;
+    margin-bottom: 0rem;
+}
+
+.footer-para {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer-list {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-list-link {
+    display: inline;
+    padding: 3rem;
+    padding-inline-start: 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
