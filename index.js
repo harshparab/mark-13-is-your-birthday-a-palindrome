@@ -152,7 +152,7 @@ function clickHandler() {
             output.innerText = "Your birthday is a palindrome"
         }else {
             var [ctr, nextDate] = getNextPalindromeDate(date)
-            output.innerHTML = "The nearest palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year + ", you missed by it " + ctr + " days"
+            output.innerHTML = "The nearest palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year + ", you missed by it " + ctr + " days."
         } 
     }
 }
