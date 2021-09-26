@@ -155,7 +155,11 @@ function clickHandler() {
             output.innerHTML = "The nearest palindrome date is " + nextDate.day + "-" + nextDate.month + "-" + nextDate.year + ", you missed by it " + ctr + " days."
         } 
     }
+    else {
+        output.innerHTML = "Please enter the date"
+    }
 }
+
 
 
 showButton.addEventListener('click', clickHandler)
